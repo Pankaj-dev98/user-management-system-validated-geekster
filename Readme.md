@@ -1,7 +1,7 @@
 # USER MANAGEMENT SYSTEM
 
 **Name: Pankaj Kalra, Batch: FS-11**
-[GITHUB](https://github.com/Pankaj-dev98/user-management-system-geekster.git)
+[GITHUB](https://github.com/Pankaj-dev98/user-management-system-validated-geekster)
 
 ## Frameworks and languages used
 - Source code: Java 20
@@ -17,7 +17,7 @@
 	+ Update any/all user's info via his ID
 	+ Delete a particular user from the system-geekster
 
-- Source code is available at: [GITHUB](https://github.com/Pankaj-dev98/user-management-system-geekster.git)
+- Source code is available at: [GITHUB](https://github.com/Pankaj-dev98/user-management-system-validated-geekster)
 
 - Database design: This project only stores user's data as an instance of a linked list (of users) in memory. This list is initialzied at startup as it's a dependency of the controller.
 
@@ -27,4 +27,6 @@ This prject uses an Instance of LinkedList class but the runtime instance is ref
 ## Project Summary
 The endpoints give us means to manage users in a straighforward manner. Users can be easily accessed, updated and deleted with their unique user IDs. Measures have been taken to avoid duplicate user IDs and invalid IDs.
 
+## MVC Architecture and Validation
+This project uses model-view-controller implementation for easier usability and readability. Jakarta-persistence Validation dependency has been added to validate fields before creating/updating user.
 
